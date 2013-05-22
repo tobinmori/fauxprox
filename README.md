@@ -1,7 +1,7 @@
 foxprox
 =======
 
-A software development work assistance tool. 
+A software development "work" assistance tool. 
 
 
 features
