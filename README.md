@@ -11,3 +11,4 @@ features
 - font color configuration
 - scroll speed configuration
 - configurable terminal launcher
+- configurable 'beep' generator
