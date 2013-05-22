@@ -12,3 +12,4 @@ features
 - scroll speed configuration
 - configurable terminal launcher
 - configurable 'beep' generator
+- message randomizer
