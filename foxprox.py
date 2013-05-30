@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from optparse import OptionParser
 import logging
 from time import sleep
@@ -16,12 +18,15 @@ parser.add_option("-s", "--speed", dest="speed",
                   help="logging speed", metavar="FILE")
 parser.add_option("-r", "--random_speed", dest="random_speed",
                   help="logging speed", metavar="FILE")
+parser.add_option("-t", "--rotate", dest="rotate", default=True,
+                  help="roTate between messages", action="store_true")
 (options, args) = parser.parse_args()
 
 format = options.format or 'default'
 mode = options.mode or 'default'
 speed = options.speed or 'default'
 is_random_speed = options.random_speed or False
+rotate_messages = options.rotate or False
 
 speed_map = { 'default':.5,
               'fast':.01,
@@ -61,8 +66,12 @@ def write_dots(is_random=True, dot_width=40):
 def run():
     while True:
         nap(nap_type='sleep_counts')
-        logger.warning(messages[mode])
-        write_dots()
+        if rotate_messages:
+            logger.warning(messages[get_random_num(messages.keys())])
+            write_dots()
+        else:
+            logger.warning(messages[mode])
+            write_dots()
 
 
 if __name__ == '__main__':
