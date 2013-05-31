@@ -5,4 +5,7 @@ messages = { 'default': 'Running process.',
              'configuring' : 'Configuring',
              'extracting' : 'Extracting',
              'compressing' : 'Compressing',
-             'deleting' : 'Destroying everything'}
+             'deleting' : 'Destroying everything',
+             'formatting': 'Formatting hardrive. . .',
+             'faxing': 'Faxing TPS-Report. . .',
+             'cover sheet': 'Adding cover sheet. . .'}
