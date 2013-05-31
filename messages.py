@@ -8,4 +8,6 @@ messages = { 'default': 'Running process.',
              'deleting' : 'Destroying everything',
              'formatting': 'Formatting hardrive. . .',
              'faxing': 'Faxing TPS-Report. . .',
-             'cover sheet': 'Adding cover sheet. . .'}
+             'cover sheet': 'Adding cover sheet. . .',
+             'installing': 'Installing Windows 2000. . .',
+             'warming up': 'Warming up dot matrix printer. . .'}
