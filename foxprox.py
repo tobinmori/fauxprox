@@ -20,7 +20,7 @@ parser.add_option("-r", "--random_speed", dest="random_speed",
                   help="logging speed", metavar="FILE")
 parser.add_option("-t", "--rotate", dest="rotate", default=True,
                   help="roTate between messages", action="store_true")
-parser.add_option("-a", "--ascii", dest="ascii", default=True,
+parser.add_option("-a", "--ascii", dest="ascii", default=False,
                   help="add ascii art")
 (options, args) = parser.parse_args()
 
