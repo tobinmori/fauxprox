@@ -10,6 +10,6 @@ messages = { 'default': 'Running process. . .',
              'faxing': 'Faxing TPS-Report. . .',
              'cover sheet': 'Adding cover sheet. . .',
              'installing': 'Installing Windows 2000. . .',
-             'warming up': 'Warming up dot matrix printer. . .'
+             'warming up': 'Warming up dot matrix printer. . .',
              'organizing': 'Organizing vacation photos. . .',
 }
