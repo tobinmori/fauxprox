@@ -76,7 +76,6 @@ def render_ascii(ascii):
             nap(nap_type='sleep_counts')
     sys.stdout.write("\n")
 
-
 def run():
     if use_ascii_art:
         import os
@@ -95,9 +94,6 @@ def run():
         else:
             logger.warning(messages[mode])
             write_dots()
-
-
-
 
 
 if __name__ == '__main__':
