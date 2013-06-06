@@ -1,4 +1,4 @@
-foxprox
+fauxprox
 =======
 
 A software development "work" assistance tool. 
